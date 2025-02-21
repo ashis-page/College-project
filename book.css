@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.content{
+    height: 55%;
+    width: 60%;
+    padding: 5%;
+    display: inline-block;
+    background-color: aliceblue;
+    box-shadow: 0 5px 15px 0;
+   
+}
+.btn{
+    height: 30px;
+    width: 80px;
+    margin-top: 10%;
+}
+
+#tag{
+    margin-left: 10%;
+}
+
+.pho{
+    height: 100%;
+    width: 50%;
+    float: right;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFGJOI1ugVJ4Zr-KGvNipsz6ObhM1FW4DVlw&s");
+    background-size: cover;
+}
